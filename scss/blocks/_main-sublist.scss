@@ -1,0 +1,51 @@
+.main__sublist {
+  width: 1320px;
+  margin: 0 auto;
+  background-image: url("../images/group7.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  padding: 137px 85px;
+  
+  .main__list {
+    width: 445px;
+    height: 176px;
+  }
+  
+  .main__title {
+    font-family: "Fraunces", "serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+    margin: 0 0 24px 0;
+  }
+  
+  .main__text {
+    font-family: "Barlow", "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main__sublist {
+    max-width: 327px;
+    width: 100%;
+    background-image: url("../images/group7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;   
+    padding: 87px 24px;
+  }
+  
+  .main__list {
+    width: 279px;
+    height: 202px;
+  }
+}

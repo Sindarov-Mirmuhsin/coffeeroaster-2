@@ -1,0 +1,42 @@
+.commitment {
+  width: 1150px;
+  margin: auto;
+  padding-top: 168px;
+  padding-bottom: 168px;
+  
+  .commitment__suplist {
+    display: flex;
+    align-items: center;
+  }
+  
+  .commitment__img {
+    width: 445px;
+    height: 520px;
+  }
+  
+  .commitment__list {
+    width: 540px;
+    margin-left: 125px;
+  }
+  
+  .commitment__title {
+    font-family: "Fraunces", "serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333d4b;
+  }
+  
+  .commitment__text {
+    font-family: "Barlow", "sans-serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  
+}

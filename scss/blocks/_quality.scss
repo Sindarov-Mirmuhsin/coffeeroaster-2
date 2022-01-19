@@ -1,0 +1,44 @@
+.quality {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 168px;
+  padding: 100px 85px 180px;
+  position: relative;
+  display: flex;
+  background-color: #2c343e;
+  border-radius: 10px;
+  
+  .quality__list {
+    width: 540px;
+    margin-right: 150px;
+  }
+  
+  .quality__title {
+    font-family: "Fraunces", "serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fefcf7;
+  }
+  
+  .quality__text {
+    font-family: "Barlow", "sans-serif";
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+  
+  .quality__img {
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    right: 85px;
+    top: -60px;
+    border-radius: 10px;
+  }
+  
+}
