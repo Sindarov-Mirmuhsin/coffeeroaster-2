@@ -42,3 +42,50 @@
   }
   
 }
+
+@media only screen and (max-width: 768px){
+  
+  .quality{
+    width: 100%;
+    max-width: 689px;
+    position: relative;
+    left: 170px;
+    margin-left: 50px;
+    padding: 0px 90px 190px;
+  }
+  
+  .quality__list{
+    width: 100%;
+    max-width: 689px;
+    padding: 20px;
+    position: relative;
+    top: 150px;
+    left: 25px;
+    
+  }
+  
+  .quality__title{
+    max-width: 400px;
+    width: 100%;
+    font-size: 32px;
+  }
+  
+  .quality__sublist{
+    position: absolute;
+    top: -147px;
+    left: 595px;
+  }
+  
+  .quality__img{
+    display: none;
+  }
+  
+  .quality__image{
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: -20px;
+    right: 32px;
+  }
+  
+}

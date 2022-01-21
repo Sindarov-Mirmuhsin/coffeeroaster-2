@@ -40,3 +40,45 @@
   }
   
 }
+
+@media only screen and (max-width: 768px){
+  
+  .commitment{
+    max-width: 689px;
+    width: 100%;
+    position: relative;
+    left: 90px;
+    padding-bottom: 0;
+    margin-bottom: 330px;
+  }
+  
+  .our__container{
+    max-width: 689px;
+    width: 100%;
+    padding: 0 40px;
+  }
+  
+  .commitment__list{
+    position: relative;
+    bottom: 50px;
+    max-width: 339px;
+    width: 100%;
+    height: 453px;
+    margin-left: 69px;
+    margin-top: 0;
+  }
+  
+  .commitment__title{
+    max-width: 286px;
+    margin-top: 0;
+    margin-bottom: 25px;	
+  }
+  
+  .commitment__text{
+    max-width: 350px;
+    width: 100%;
+    height: 350px;
+    margin: 0;
+  }
+  
+}

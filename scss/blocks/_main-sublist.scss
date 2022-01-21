@@ -33,19 +33,33 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .main__sublist {
-    max-width: 327px;
-    width: 100%;
-    background-image: url("../images/group7.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;   
-    padding: 87px 24px;
-  }
-  
-  .main__list {
-    width: 279px;
-    height: 202px;
-  }
+@media only screen and (max-width: 768px) {
+	.main {
+		max-width: 689px;
+		width: 100%;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	.main__sublist {
+		max-width: 689px;
+		width: 100%;
+		background-image: url("../images/group7.png");
+		background-repeat: no-repeat;
+		background-size: 940px 522px;
+		border-radius: 10px;
+		padding: 162px 30px;
+	}
+
+	.main__list {
+		max-width: 398px;
+		width: 100%;
+		padding: 10px;
+	}
+
+	.container {
+		max-width: 689px;
+		width: 100%;
+		padding: 0;
+	}
 }
